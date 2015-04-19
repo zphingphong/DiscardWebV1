@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'brie_lightregular';
-  src: url('assets/fonts/bri293-webfont.eot');
-  src: url('assets/fonts/bri293-webfont.eot?#iefix') format('embedded-opentype'),
-  url('assets/fonts/bri293-webfont.woff2') format('woff2'),
-  url('assets/fonts/bri293-webfont.woff') format('woff'),
-  url('assets/fonts/bri293-webfont.ttf') format('truetype'),
-  url('assets/fonts/bri293-webfont.svg#brie_lightregular') format('svg');
+  src: url('../assets/fonts/bri293-webfont.eot');
+  src: url('../assets/fonts/bri293-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/bri293-webfont.woff2') format('woff2'),
+  url('../assets/fonts/bri293-webfont.woff') format('woff'),
+  url('../assets/fonts/bri293-webfont.ttf') format('truetype'),
+  url('../assets/fonts/bri293-webfont.svg#brie_lightregular') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -22,7 +22,9 @@ nav {
 
   a.nav-item {
     font-weight: bold;
-    border-bottom: 1px #eee solid;
+    @media screen and (max-width: 768px) {
+      border-bottom: 1px #eee solid;
+    }
   }
 }
 
