@@ -3,18 +3,25 @@
 <head lang="en">
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/index.css">
 
     <!--<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>-->
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>-->
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
     <title>Discard - Say goodbye to FAT wallet</title>
 </head>
 <body>
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#discard-navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="#">
                 <img alt="Discard" src="assets/images/logo.png" id="logo">
             </a>
@@ -22,25 +29,37 @@
             <!--Discard-->
             <!--</a>-->
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="discard-navbar">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#">Discard for Business</a>
+                    <a href="#" class="nav-item">
+                        Discard for Business
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Discard for Customer</a>
+                    <a href="#" class="nav-item">
+                        Discard for Customer
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Our Members</a>
+                    <a href="#" class="nav-item">
+                        Our Members
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Pricing</a>
+                    <a href="#" class="nav-item">
+                        Pricing
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Join Us</a>
+                    <a href="#" class="nav-item">
+                        Join Us
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#" class="nav-item">
+                        Contact
+                    </a>
                 </li>
             </ul>
         </div>
@@ -48,7 +67,25 @@
 </nav>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xs-12" id="details-container">
+        <div class="col-xs-12 col-md-6" id="details-container">
+            <!--<h1>What is Discard?</h1>-->
+            <p>How many loyalty cards you have in your wallet?</p>
+            <p>How many you left at home?</p>
+            <p>How many you totally forget?</p>
+            <p>
+                Discard let you have these cards with you at all times without adding thickness to your wallet.
+                Instead of printing out plastic or paper cards, businesses will simply create virtual loyalty card on
+                Discard.
+                Then, you can simply show your mobile screen, whenever you visit the store.
+                Businesses increase customers' convenience, loyalty and satisfaction, while reducing the cost.
+            </p>
+            <p>
+                Basically, Discard is a mobile app that replaces the need to carry membership cards.
+                It doesn't require any special hardware, just your smartphone.
+            </p>
+        </div>
+        <div class="col-md-6" id="details-assets">
+            <img src="http://xamarin.com/content/images/pages/index/platform-photo.png">
         </div>
     </div>
     <div class="row">
