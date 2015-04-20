@@ -13,27 +13,59 @@
 
 nav {
   #logo {
-    width: 50px;
-    height: 50px;
-    top: -15px;
-    left: -15px;
+    width: 51px;
+    height: 51px;
+    top: -13px;
     position: relative;
   }
 
   a.nav-item {
     font-weight: bold;
-    @media screen and (max-width: 768px) {
-      border-bottom: 1px #eee solid;
-    }
+    //    @media screen and (max-width: 768px) {
+    //      border-bottom: 1px #eee solid;
+    //    }
   }
 }
 
 body {
-  background-color: #f7f7f7;
-  #details-assets {
+  padding-top: 70px;
+  
+  .how-slide-container {
+    padding: 30px 0 70px 70px;
+  }
+
+  .how-slide-img-container {
     img {
       max-width: 100%;
       max-height: 100%;
     }
+  }
+
+  #details-container {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @media screen and (min-width: 768px) {
+      padding-top: 50px;
+    }
+
+    h4 {
+      text-align: center;
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+  }
+
+  #details-assets {
+    padding-bottom: 20px;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  #how-business-container {
+    background-color: #ff9500;
   }
 }

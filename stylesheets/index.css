@@ -6,24 +6,46 @@
   font-style: normal;
 }
 nav #logo {
-  width: 50px;
-  height: 50px;
-  top: -15px;
-  left: -15px;
+  width: 51px;
+  height: 51px;
+  top: -13px;
   position: relative;
 }
 nav a.nav-item {
   font-weight: bold;
 }
-@media screen and (max-width: 768px) {
-  nav a.nav-item {
-    border-bottom: 1px #eee solid;
+body {
+  padding-top: 70px;
+}
+body .how-slide-container {
+  padding: 30px 0 70px 70px;
+}
+body .how-slide-img-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+body #details-container {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  body #details-container {
+    padding-top: 50px;
   }
 }
-body {
-  background-color: #f7f7f7;
+body #details-container h4 {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+body #details-assets {
+  padding-bottom: 20px;
 }
 body #details-assets img {
   max-width: 100%;
   max-height: 100%;
+}
+body #how-business-container {
+  background-color: #ff9500;
 }
