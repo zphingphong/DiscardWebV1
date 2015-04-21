@@ -13,6 +13,11 @@ nav #logo {
 }
 nav a.nav-item {
   font-weight: bold;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 body {
   padding-top: 70px;
@@ -23,6 +28,9 @@ body .how-slide-container {
 body .how-slide-img-container img {
   max-width: 100%;
   max-height: 100%;
+}
+body .how-slide-text-container h1 {
+  text-align: center;
 }
 body #details-container {
   padding-bottom: 20px;
