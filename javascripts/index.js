@@ -4,6 +4,8 @@
 
 $(function () {
     $('.nav a').on('click', function () {
-        $(".navbar-toggle").click() //bootstrap 3.x by Richard
+        if ($('button.navbar-toggle').css('display') != 'none') {
+            $('.navbar-toggle').click();
+        }
     });
 });
