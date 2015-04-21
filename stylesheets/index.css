@@ -8,7 +8,7 @@
 nav #logo {
   width: 51px;
   height: 51px;
-  top: -13px;
+  top: -12px;
   position: relative;
 }
 nav a.nav-item {
@@ -34,7 +34,7 @@ body .how-slide-img-container img {
     padding-top: 100px;
   }
 }
-body .how-slide-text-container h2 {
+body .how-slide-text-container h3 {
   text-align: center;
 }
 body .how-slide-text-container p {
