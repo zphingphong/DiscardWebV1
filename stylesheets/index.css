@@ -29,8 +29,16 @@ body .how-slide-img-container img {
   max-width: 100%;
   max-height: 100%;
 }
-body .how-slide-text-container h1 {
+@media screen and (min-width: 768px) {
+  body .how-slide-text-container {
+    padding-top: 100px;
+  }
+}
+body .how-slide-text-container h2 {
   text-align: center;
+}
+body .how-slide-text-container p {
+  color: #ffffff;
 }
 body #details-container {
   padding-bottom: 20px;
