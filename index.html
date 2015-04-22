@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse" id="discard-navbar">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#" class="nav-item page-scroll">
+                    <a href="#how-customer-container" class="nav-item page-scroll">
                         Discard for Customer
                     </a>
                 </li>
@@ -95,11 +95,7 @@
     </div>
     <div class="row">
         <div class="col-xs-12" id="how-customer-container">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12" id="how-business-container">
-            <div id="how-business-slide" class="carousel slide" data-ride="carousel">
+            <div id="how-customer-slide" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#how-business-slide" data-slide-to="0" class="active"></li>
@@ -112,7 +108,7 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <div class="row how-slide-container">
-                            <div class="how-slide-img-container col-xs-12 col-md-6">
+                            <div class="how-slide-img-container how-slide-img-left-container col-xs-12 col-md-6">
                                 <img src="assets/images/how-to-scan.png" alt="Scan customer's QR code">
                             </div>
                             <div class="how-slide-text-container col-xs-12 col-md-6">
@@ -131,7 +127,7 @@
                     </div>
                     <div class="item">
                         <div class="row how-slide-container">
-                            <div class="how-slide-img-container col-xs-12 col-md-6">
+                            <div class="how-slide-img-container how-slide-img-left-container col-xs-12 col-md-6">
                                 <img src="assets/images/how-to-verify.png" alt="Verify that membership is valid">
                             </div>
                             <div class="how-slide-text-container col-xs-12 col-md-6">
@@ -150,7 +146,7 @@
                     </div>
                     <div class="item">
                         <div class="row how-slide-container">
-                            <div class="how-slide-img-container col-xs-12 col-md-6">
+                            <div class="how-slide-img-container how-slide-img-left-container col-xs-12 col-md-6">
                                 <img src="assets/images/how-to-add-stamp.png" alt="Add a stamp for customer">
                             </div>
                             <div class="how-slide-text-container col-xs-12 col-md-6">
@@ -166,7 +162,7 @@
                     </div>
                     <div class="item">
                         <div class="row how-slide-container">
-                            <div class="how-slide-img-container col-xs-12 col-md-6">
+                            <div class="how-slide-img-container how-slide-img-left-container col-xs-12 col-md-6">
                                 <img src="assets/images/how-to-redeem.png" alt="Mark the card as redeemed">
                             </div>
                             <div class="how-slide-text-container col-xs-12 col-md-6">
@@ -178,6 +174,116 @@
                                     On your Discard Admin app, you can mark the card that it's redeemed.
                                     Discard then resets the card on customer's device.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#how-business-slide" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#how-business-slide" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12" id="how-business-container">
+            <div id="how-business-slide" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#how-business-slide" data-slide-to="0" class="active"></li>
+                    <li data-target="#how-business-slide" data-slide-to="1"></li>
+                    <li data-target="#how-business-slide" data-slide-to="2"></li>
+                    <li data-target="#how-business-slide" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="row how-slide-container">
+                            <div class="how-slide-img-container how-slide-img-right-container visible-xs-block col-xs-12">
+                                <img src="assets/images/how-to-scan.png" alt="Scan customer's QR code">
+                            </div>
+                            <div class="how-slide-text-container col-xs-12 col-md-6">
+                                <h3>
+                                    Scan customer QR code
+                                </h3>
+                                <p>
+                                    When your customer wants to redeem perk from their card, or collect more stamp, use Discard Admin app to scan
+                                    the customer QR code. The app will show your member information, such as expiry date, number of stamps and perk.
+                                </p>
+                            </div>
+                            <div class="how-slide-img-container how-slide-img-right-container hidden-xs col-md-6">
+                                <img src="assets/images/how-to-scan.png" alt="Scan customer's QR code">
+                            </div>
+                        </div>
+                        <!--<div class="carousel-caption">-->
+                        <!--Scan customer's QR code-->
+                        <!--</div>-->
+                    </div>
+                    <div class="item">
+                        <div class="row how-slide-container">
+                            <div class="how-slide-img-container how-slide-img-right-container visible-xs-block col-xs-12">
+                                <img src="assets/images/how-to-verify.png" alt="Verify that membership is valid">
+                            </div>
+                            <div class="how-slide-text-container col-xs-12 col-md-6">
+                                <h3>
+                                    Verify that membership is valid
+                                </h3>
+                                <p>
+                                    You can validate the expiry date on the customer's membership card like you normally would, based on the information on Discard Admin app.
+                                    See if they're still eligible for the perk of the card holder.
+                                </p>
+                            </div>
+                            <div class="how-slide-img-container how-slide-img-right-container hidden-xs col-md-6">
+                                <img src="assets/images/how-to-verify.png" alt="Verify that membership is valid">
+                            </div>
+                        </div>
+                        <!--<div class="carousel-caption">-->
+                        <!--Validate membership expiry date-->
+                        <!--</div>-->
+                    </div>
+                    <div class="item">
+                        <div class="row how-slide-container">
+                            <div class="how-slide-img-container how-slide-img-right-container visible-xs-block col-xs-12">
+                                <img src="assets/images/how-to-add-stamp.png" alt="Add a stamp for customer">
+                            </div>
+                            <div class="how-slide-text-container col-xs-12 col-md-6">
+                                <h3>
+                                    Add a stamp for customer
+                                </h3>
+                                <p>
+                                    When the customer meets your requirement to earn a stamp, just tap on Discard Admin app to add a stamp for them.
+                                    Updated card with the new stamp then shows up on your customer's device for their reference.
+                                </p>
+                            </div>
+                            <div class="how-slide-img-container how-slide-img-right-container hidden-xs col-md-6">
+                                <img src="assets/images/how-to-add-stamp.png" alt="Add a stamp for customer">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row how-slide-container">
+                            <div class="how-slide-img-container how-slide-img-right-container visible-xs-block col-xs-12">
+                                <img src="assets/images/how-to-redeem.png" alt="Mark the card as redeemed">
+                            </div>
+                            <div class="how-slide-text-container col-xs-12 col-md-6">
+                                <h3>
+                                    Mark the card as redeemed
+                                </h3>
+                                <p>
+                                    Let's say your customer earned enough stamps to redeem any perk specified.
+                                    On your Discard Admin app, you can mark the card that it's redeemed.
+                                    Discard then resets the card on customer's device.
+                                </p>
+                            </div>
+                            <div class="how-slide-img-container how-slide-img-right-container hidden-xs col-md-6">
+                                <img src="assets/images/how-to-redeem.png" alt="Mark the card as redeemed">
                             </div>
                         </div>
                     </div>
