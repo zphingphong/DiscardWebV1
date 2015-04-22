@@ -75,3 +75,12 @@ body #details-assets img {
 body #how-business-container {
   background-color: #ff9500;
 }
+body #how-business-container h3 {
+  color: #653000;
+}
+body #how-customer-container {
+  background-color: #653000;
+}
+body #how-customer-container h3 {
+  color: #ff9500;
+}
