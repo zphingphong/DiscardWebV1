@@ -22,6 +22,12 @@ nav a.nav-item {
 body {
   padding-top: 70px;
 }
+body .carousel h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
 body .how-slide-container {
   padding: 30px 5% 70px 5%;
 }
