@@ -112,3 +112,15 @@ body #pricing-container p {
 body #pricing-container p:last-child {
   padding-bottom: 50px;
 }
+body #join-container {
+  background-color: #ff9500;
+}
+body #join-container p {
+  text-align: center;
+  color: #ffffff;
+  margin: 30px 0;
+  font-size: 4rem;
+}
+body #join-container a {
+  font-style: italic;
+}
