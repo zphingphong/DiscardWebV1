@@ -99,8 +99,15 @@ body #pricing-container h1 {
 body #pricing-container p {
   text-align: center;
 }
-body #pricing-container #huge-free {
-  font-size: 20rem;
+@media screen and (min-width: 768px) {
+  body #pricing-container #huge-free {
+    font-size: 20rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  body #pricing-container #huge-free {
+    font-size: 15rem;
+  }
 }
 body #pricing-container p:last-child {
   padding-bottom: 50px;
