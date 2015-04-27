@@ -25,10 +25,10 @@ body {
 body h1 {
   color: #ffffff;
   text-align: center;
+  padding-top: 50px;
+  margin-top: 0;
 }
 body .carousel h1 {
-  margin-top: 0;
-  padding-top: 50px;
   margin-bottom: 0;
 }
 body .how-slide-container {
@@ -101,4 +101,7 @@ body #pricing-container p {
 }
 body #pricing-container #huge-free {
   font-size: 20rem;
+}
+body #pricing-container p:last-child {
+  padding-bottom: 50px;
 }
