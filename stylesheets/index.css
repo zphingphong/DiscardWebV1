@@ -24,9 +24,9 @@ body {
 }
 body h1 {
   color: #ffffff;
+  text-align: center;
 }
 body .carousel h1 {
-  text-align: center;
   margin-top: 0;
   padding-top: 50px;
   margin-bottom: 0;
@@ -92,4 +92,13 @@ body #how-customer-container {
 }
 body #how-customer-container h3 {
   color: #ff9500;
+}
+body #pricing-container h1 {
+  color: #000000;
+}
+body #pricing-container p {
+  text-align: center;
+}
+body #pricing-container #huge-free {
+  font-size: 20rem;
 }
