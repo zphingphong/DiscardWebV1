@@ -124,3 +124,12 @@ body #join-container p {
 body #join-container a {
   font-style: italic;
 }
+body #contact-container {
+  background-color: #653000;
+  text-align: center;
+  padding-bottom: 50px;
+}
+body #contact-container a,
+body #contact-container h3 {
+  color: #ffffff;
+}
