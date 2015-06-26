@@ -50,7 +50,7 @@ body .how-slide-img-container img {
 }
 @media screen and (min-width: 768px) {
   body .how-slide-text-container {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 }
 body .how-slide-text-container h3 {

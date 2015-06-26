@@ -318,7 +318,52 @@
     </div>
     <div class="row">
         <div class="col-xs-12" id="join-container">
-            <p>Sounds good? <a href="mailto:hello@discardapp.com?subject=Interested in joining&body=Please enter your name, business name and contact information here.">Join us</a></p>
+            <!-- <p>Sounds good? <a href="mailto:hello@discardapp.com?subject=Interested in joining&body=Please enter your name, business name and contact information here.">Join us</a></p>-->
+			<p>Sounds good?</p>
+			<form method="post">
+				<h3>Store Information</h3>
+				<h4>These information appears when your customer view your store from their </h4>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Store Name</span>
+					</div>
+					<div class="col-md-6">
+						<input type="text" name="storeName">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Store Address</span>
+					</div>
+					<div class="col-md-6">
+						<input type="text" name="storeAddress">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Store Phone</span>
+					</div>
+					<div class="col-md-6">
+						<input type="tel" name="storePhone">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Store Email</span>
+					</div>
+					<div class="col-md-6">
+						<input type="email" name="storeEmail">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Store Website</span>
+					</div>
+					<div class="col-md-6">
+						<input type="url" name="storeWebsite">
+					</div>
+				</div>
+			</form>
             <p>Any question? <a href="#contact-container">Contact us</a></p>
         </div>
     </div>
