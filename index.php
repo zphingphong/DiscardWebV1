@@ -319,13 +319,14 @@
     <div class="row">
         <div class="col-xs-12" id="join-container">
             <!-- <p>Sounds good? <a href="mailto:hello@discardapp.com?subject=Interested in joining&body=Please enter your name, business name and contact information here.">Join us</a></p>-->
-			<p>Sounds good?</p>
+			<h1>Sounds good?</h1>
 			<form method="post">
-				<h3>Store Information</h3>
-				<h4>These information appears when your customer view your store from their </h4>
+				<h4>Store Information</h4>
+				<h6>This information appears when your customers view your store from their device</h6>
 				<div class="row">
 					<div class="col-md-6">
-						<span>Store Name</span>
+						<span>Name</span>
+						<span class="required-field">*</span>
 					</div>
 					<div class="col-md-6">
 						<input type="text" name="storeName">
@@ -333,7 +334,8 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<span>Store Address</span>
+						<span>Address</span>
+						<span class="required-field">*</span>
 					</div>
 					<div class="col-md-6">
 						<input type="text" name="storeAddress">
@@ -341,7 +343,8 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<span>Store Phone</span>
+						<span>Phone</span>
+						<span class="required-field">*</span>
 					</div>
 					<div class="col-md-6">
 						<input type="tel" name="storePhone">
@@ -349,7 +352,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<span>Store Email</span>
+						<span>Email</span>
 					</div>
 					<div class="col-md-6">
 						<input type="email" name="storeEmail">
@@ -357,10 +360,89 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<span>Store Website</span>
+						<span>Website</span>
 					</div>
 					<div class="col-md-6">
 						<input type="url" name="storeWebsite">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Category</span>
+						<span class="required-field">*</span>
+					</div>
+					<div class="col-md-6">
+						<select name="storeCategory">
+							<option value="0">Food</option>
+							<option value="1">Drink</option>
+							<option value="2">Cafe</option>
+							<option value="3">Spa</option>
+							<option value="4">Beauty</option>
+							<option value="5">Grocery</option>
+							<option value="6">Clothing</option>
+							<option value="7">Gifts</option>
+							<option value="99">Not on List</option>
+						</select>
+					</div>
+				</div>
+				<h4>Administrator Information</h4>
+				<h6>To identify if you're signed in as an administrator of the store</h6>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Email</span>
+						<span class="required-field">*</span>
+					</div>
+					<div class="col-md-6">
+						<input type="email" name="adminEmail">
+					</div>
+				</div>
+				<h4>Card Information</h4>
+				<h6>Represents customer's card</h6>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Type</span>
+						<span class="required-field">*</span>
+					</div>
+					<div class="col-md-6">
+						<select name="cardType">
+							<option value="0">Membership</option>
+							<option value="1">Stamps</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Days To Expiry</span>
+					</div>
+					<div class="col-md-6">
+						<input type="number" name="cardExpireInDays">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Perks Description</span>
+						<span class="required-field">*</span>
+					</div>
+					<div class="col-md-6">
+						<input type="text" name="cardPerks">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Stamp Count till Redeem</span>
+					</div>
+					<div class="col-md-6">
+						<input type="number" name="cardExpireInDays">
+					</div>
+				</div>
+				<h4>Account Manager Information</h4>
+				<div class="row">
+					<div class="col-md-6">
+						<span>Email</span>
+						<span class="required-field">*</span>
+					</div>
+					<div class="col-md-6">
+						<input type="email" name="accountManagerEmail">
 					</div>
 				</div>
 			</form>

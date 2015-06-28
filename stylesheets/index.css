@@ -123,6 +123,33 @@ body #join-container p {
 }
 body #join-container a {
   font-style: italic;
+  color: #653000;
+}
+@media screen and (min-width: 768px) {
+  body #join-container form {
+    padding: 0 5%;
+  }
+  body #join-container form .row {
+    margin: 5px 0;
+  }
+  body #join-container form .row input,
+  body #join-container form .row select {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px #de8200;
+    color: #ffffff;
+  }
+}
+body #join-container form span,
+body #join-container form h6 {
+  color: #ffffff;
+}
+body #join-container form h4 {
+  color: #653000;
+}
+body #join-container form .required-field {
+  color: #653000;
 }
 body #contact-container {
   background-color: #653000;

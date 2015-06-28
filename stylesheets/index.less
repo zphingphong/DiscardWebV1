@@ -163,6 +163,37 @@ body {
 
     a {
       font-style: italic;
+      color: #653000;
+    }
+
+    form {
+      @media screen and (min-width: 768px) {
+        padding: 0 5%;
+
+        .row {
+          margin: 5px 0;
+
+          input, select {
+            width: 100%;
+            background: transparent;
+            border: none;
+            border-bottom: solid 2px #de8200;
+            color: #ffffff;
+          }
+        }
+      }
+
+      span, h6 {
+        color: #ffffff;
+      }
+
+      h4 {
+        color: #653000;
+      }
+
+      .required-field {
+        color: #653000;
+      }
     }
   }
 
