@@ -132,14 +132,17 @@ body #join-container a {
   body #join-container form .row {
     margin: 5px 0;
   }
-  body #join-container form .row input,
-  body #join-container form .row select {
-    width: 100%;
-    background: transparent;
-    border: none;
-    border-bottom: solid 2px #de8200;
-    color: #ffffff;
-  }
+}
+body #join-container form .row input,
+body #join-container form .row select {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: solid 2px #de8200;
+  color: #ffffff;
+}
+body #join-container form .row .required-field {
+  color: #653000;
 }
 body #join-container form span,
 body #join-container form h6 {
@@ -148,8 +151,20 @@ body #join-container form h6 {
 body #join-container form h4 {
   color: #653000;
 }
-body #join-container form .required-field {
-  color: #653000;
+body #join-container form #signup-submit-container {
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+}
+body #join-container form #signup-submit-container input[type="submit"] {
+  width: 80%;
+  background: none;
+  border: solid 2px #de8200;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
 body #contact-container {
   background-color: #653000;
@@ -164,4 +179,13 @@ body #contact-container p {
   text-align: center;
   color: #ffffff;
   margin: 30px 0;
+}
+@media screen and (min-width: 768px) {
+  body #signup-confirmation-container {
+    padding: 10rem;
+  }
+}
+body #signup-confirmation-container a {
+  text-decoration: underline;
+  color: #ff9500;
 }

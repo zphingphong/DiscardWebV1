@@ -172,14 +172,20 @@ body {
 
         .row {
           margin: 5px 0;
+        }
+      }
 
-          input, select {
-            width: 100%;
-            background: transparent;
-            border: none;
-            border-bottom: solid 2px #de8200;
-            color: #ffffff;
-          }
+      .row {
+        input, select {
+          width: 100%;
+          background: transparent;
+          border: none;
+          border-bottom: solid 2px #de8200;
+          color: #ffffff;
+        }
+
+        .required-field {
+          color: #653000;
         }
       }
 
@@ -191,8 +197,21 @@ body {
         color: #653000;
       }
 
-      .required-field {
-        color: #653000;
+      #signup-submit-container {
+        text-align: center;
+        padding: 3rem 0 1rem 0;
+
+        input[type="submit"] {
+          width: 80%;
+          background: none;
+          border: solid 2px #de8200;
+          color: #ffffff;
+          font-size: 3rem;
+          font-weight: bold;
+          -webkit-border-radius: 6px;
+          -moz-border-radius: 6px;
+          border-radius: 6px;
+        }
       }
     }
   }
@@ -210,6 +229,16 @@ body {
       text-align: center;
       color: #ffffff;
       margin: 30px 0;
+    }
+  }
+
+  #signup-confirmation-container {
+    @media screen and (min-width: 768px) {
+      padding: 10rem;
+    }
+    a {
+      text-decoration: underline;
+      color: #ff9500;
     }
   }
 }

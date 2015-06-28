@@ -320,7 +320,7 @@
         <div class="col-xs-12" id="join-container">
             <!-- <p>Sounds good? <a href="mailto:hello@discardapp.com?subject=Interested in joining&body=Please enter your name, business name and contact information here.">Join us</a></p>-->
 			<h1>Sounds good?</h1>
-			<form method="post">
+			<form method="post" action="signup.php">
 				<h4>Store Information</h4>
 				<h6>This information appears when your customers view your store from their device</h6>
 				<div class="row">
@@ -329,7 +329,7 @@
 						<span class="required-field">*</span>
 					</div>
 					<div class="col-md-6">
-						<input type="text" name="storeName">
+						<input type="text" name="storeName" required>
 					</div>
 				</div>
 				<div class="row">
@@ -338,7 +338,7 @@
 						<span class="required-field">*</span>
 					</div>
 					<div class="col-md-6">
-						<input type="text" name="storeAddress">
+						<input type="text" name="storeAddress" required>
 					</div>
 				</div>
 				<div class="row">
@@ -347,7 +347,7 @@
 						<span class="required-field">*</span>
 					</div>
 					<div class="col-md-6">
-						<input type="tel" name="storePhone">
+						<input type="tel" name="storePhone" required>
 					</div>
 				</div>
 				<div class="row">
@@ -372,7 +372,7 @@
 						<span class="required-field">*</span>
 					</div>
 					<div class="col-md-6">
-						<select name="storeCategory">
+						<select name="storeCategory" required>
 							<option value="0">Food</option>
 							<option value="1">Drink</option>
 							<option value="2">Cafe</option>
@@ -393,7 +393,7 @@
 						<span class="required-field">*</span>
 					</div>
 					<div class="col-md-6">
-						<input type="email" name="adminEmail">
+						<input type="email" name="adminEmail" required>
 					</div>
 				</div>
 				<h4>Card Information</h4>
@@ -404,7 +404,7 @@
 						<span class="required-field">*</span>
 					</div>
 					<div class="col-md-6">
-						<select name="cardType">
+						<select name="cardType" required>
 							<option value="0">Membership</option>
 							<option value="1">Stamps</option>
 						</select>
@@ -424,7 +424,7 @@
 						<span class="required-field">*</span>
 					</div>
 					<div class="col-md-6">
-						<input type="text" name="cardPerks">
+						<input type="text" name="cardPerks" required>
 					</div>
 				</div>
 				<div class="row">
@@ -442,8 +442,11 @@
 						<span class="required-field">*</span>
 					</div>
 					<div class="col-md-6">
-						<input type="email" name="accountManagerEmail">
+						<input type="email" name="accountManagerEmail" required>
 					</div>
+				</div>
+				<div id="signup-submit-container">
+					<input type="submit" value="Sign Up Now">
 				</div>
 			</form>
             <p>Any question? <a href="#contact-container">Contact us</a></p>
