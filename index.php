@@ -96,7 +96,7 @@
     <div class="row">
         <div class="col-xs-12" id="how-customer-container">
             <div id="how-customer-slide" class="carousel slide" data-ride="carousel">
-                <h1>How Discard works for customer ?</h1>
+                <h1>How Discard works for customer?</h1>
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#how-customer-slide" data-slide-to="0" class="active"></li>
@@ -201,7 +201,7 @@
     <div class="row">
         <div class="col-xs-12" id="how-business-container">
             <div id="how-business-slide" class="carousel slide" data-ride="carousel">
-                <h1>How Discard works for business ?</h1>
+                <h1>How Discard works for business?</h1>
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#how-business-slide" data-slide-to="0" class="active"></li>
@@ -311,7 +311,7 @@
     </div>
     <div class="row">
         <div class="col-xs-12" id="pricing-container">
-            <h1>How much ?</h1>
+            <h1>How much?</h1>
             <p id="huge-free">FREE</p>
             <p>Seriously? Yes! $0 No Charge!</p>
         </div>
@@ -454,7 +454,7 @@
     </div>
     <div class="row">
         <div class="col-xs-12" id="contact-container">
-            <h1>Need more information ?</h1>
+            <h1>Need more information?</h1>
             <p>Email us at <a href="mailto:hello@discardapp.com">hello@discardapp.com</a></p>
             <!--<div class="row">-->
                 <!--<div class="col-md-6">-->
