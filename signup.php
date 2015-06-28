@@ -44,7 +44,7 @@
 		$standardMessage .= "<b>Perks Description: </b>";
 		$standardMessage .= $_POST['cardPerks']."<br />";
 		$standardMessage .= "<b>Stamp Count till Redeem: </b>";
-		$standardMessage .= $_POST['cardExpireInDays']."<br />";
+		$standardMessage .= $_POST['stampCount']."<br />";
 		$standardMessage .= "<h4>Account Manager Information</h4>";
 		$standardMessage .= "<b>Email: </b>";
 		$standardMessage .= $_POST['accountManagerEmail']."<br />";
@@ -149,7 +149,7 @@
 					<span>Stamp Count till Redeem</span>
 				</div>
 				<div class="col-md-6">
-					<span><?php echo $_POST['cardExpireInDays'] ?></span>
+					<span><?php echo $_POST['stampCount'] ?></span>
 				</div>
 			</div>
 			<h4>Account Manager Information</h4>

@@ -432,7 +432,7 @@
 						<span>Stamp Count till Redeem</span>
 					</div>
 					<div class="col-md-6">
-						<input type="number" name="cardExpireInDays">
+						<input type="number" name="stampCount">
 					</div>
 				</div>
 				<h4>Account Manager Information</h4>
