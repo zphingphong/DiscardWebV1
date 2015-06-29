@@ -313,7 +313,8 @@
         <div class="col-xs-12" id="pricing-container">
             <h1>How much?</h1>
             <p id="huge-free">FREE</p>
-            <p>Seriously? Yes! $0 No Charge!</p>
+            <p>Seriously? Yes!</p>
+            <p>We only charge $250 one-time service fee to help you get started</p>
         </div>
     </div>
     <div class="row">
