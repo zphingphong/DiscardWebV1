@@ -374,15 +374,15 @@
 					</div>
 					<div class="col-md-6">
 						<select name="storeCategory" required>
-							<option value="0">Food</option>
-							<option value="1">Drink</option>
-							<option value="2">Cafe</option>
-							<option value="3">Spa</option>
-							<option value="4">Beauty</option>
-							<option value="5">Grocery</option>
-							<option value="6">Clothing</option>
-							<option value="7">Gifts</option>
-							<option value="99">Not on List</option>
+							<option value="0 - Food">Food</option>
+							<option value="1 - Drink">Drink</option>
+							<option value="2 - Cafe">Cafe</option>
+							<option value="3 - Spa">Spa</option>
+							<option value="4 - Beauty">Beauty</option>
+							<option value="5 - Grocery">Grocery</option>
+							<option value="6 - Clothing">Clothing</option>
+							<option value="7 - Gifts">Gifts</option>
+							<option value="99 - Not on List">Not on List</option>
 						</select>
 					</div>
 				</div>
@@ -406,8 +406,8 @@
 					</div>
 					<div class="col-md-6">
 						<select name="cardType" required>
-							<option value="0">Membership</option>
-							<option value="1">Stamps</option>
+							<option value="0 - Membership">Membership</option>
+							<option value="1 - Stamps">Stamps</option>
 						</select>
 					</div>
 				</div>
