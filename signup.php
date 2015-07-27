@@ -19,7 +19,7 @@
 		$customerSubject = $_POST['storeName'].", welcome to Discard";
 		$agentSubject = $_POST['storeName']." signup";
 		$standardMessage = "Hi, <br />";
-		$standardMessage .= "You are now part of Discard family. Congratulations, you've got FREE service from us as an appreciation from your agent. Our $250 start-up service charge is waived. Please confirm the information below. If it needs correction, let us know.<br />";
+		$standardMessage .= "You are now part of Discard family. Congratulations, you've got FREE service from us as an appreciation from your account manager. Our $250 start-up service charge is waived. Please confirm the information below. If it needs correction, let us know.<br />";
 		$standardMessage .= "<h4>Store Information</h4>";
 		$standardMessage .= "<b>Name: </b>";
 		$standardMessage .= $_POST['storeName']."<br />";
