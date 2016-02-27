@@ -168,8 +168,31 @@ body {
     }
 
     div.profile {
+      margin-bottom: 50px;
       img {
         width: 75%;
+        margin: 10px auto;
+        display: block;
+      }
+      div {
+        text-align: center;
+        color: white;
+        &.name {
+          font-weight: bold;
+          color: #653000;
+        }
+        &.title {
+          font-size: 1.5rem;
+        }
+        &.motto:before, &.motto:after {
+          content: '"';
+        }
+        &.school {
+          font-size: 1.8rem;
+        }
+        &.location {
+          font-weight: bold;
+        }
       }
     }
 

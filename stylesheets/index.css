@@ -126,8 +126,34 @@ body #about-container a {
   font-style: italic;
   color: #653000;
 }
+body #about-container div.profile {
+  margin-bottom: 50px;
+}
 body #about-container div.profile img {
   width: 75%;
+  margin: 10px auto;
+  display: block;
+}
+body #about-container div.profile div {
+  text-align: center;
+  color: white;
+}
+body #about-container div.profile div.name {
+  font-weight: bold;
+  color: #653000;
+}
+body #about-container div.profile div.title {
+  font-size: 1.5rem;
+}
+body #about-container div.profile div.motto:before,
+body #about-container div.profile div.motto:after {
+  content: '"';
+}
+body #about-container div.profile div.school {
+  font-size: 1.8rem;
+}
+body #about-container div.profile div.location {
+  font-weight: bold;
 }
 @media screen and (min-width: 768px) {
   body #about-container form {
