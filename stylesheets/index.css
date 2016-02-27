@@ -224,3 +224,10 @@ body #signup-confirmation-container a {
 body #signup-confirmation-container .row div:first-child {
   font-weight: bold;
 }
+body #footer-container {
+  background-color: #653000;
+  font-size: 1.2rem;
+  color: white;
+  border-top: solid #7c3c00 2px;
+  padding: 10px;
+}
