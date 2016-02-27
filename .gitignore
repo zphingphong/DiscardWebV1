@@ -77,3 +77,9 @@ crashlytics-build.properties
 
 # User images
 public/images/user_qr/*.png
+assets/images/grant.png
+assets/images/nick.png
+assets/images/morgan.png
+assets/images/wei.png
+assets/images/mani.png
+assets/images/louise.png
